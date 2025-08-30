@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Car Gallery — Home</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  
+  <header class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="logo">Car<span>Gallery</span></a>
+    </div>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="#brands">Brands</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Find your dream car by brand</h1>
+      <p>Tap a brand to explore models, photos, and quick specs.</p>
+      <div class="search-wrap">
+        <input id="brand-search" type="text" placeholder="Search brand… (e.g., BMW, Ferrari, Tata)" />
+      </div>
+    </div>
+  </section>
+
+  
+  <main id="brands" class="brands">
+
+  </main>
+
+
+  <footer id="about" class="footer">
+    <p>“Note: This gallery is built for demonstration purposes. Images are fetched automatically from Unsplash based on car model keywords. Actual visuals may vary and might not represent the exact variant or trim.
+Specifications (power, drivetrain, price, etc.) are approximate and provided for reference only.
+For the most accurate details, please visit the official manufacturer’s website.”..........</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
